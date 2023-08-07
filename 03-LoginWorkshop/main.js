@@ -4,7 +4,7 @@ switch (user) {
         let pass = prompt("password")
         switch (pass) {
             case '123456':
-                user = "user codecamp";
+                let user = "codecamp";
                 break;
             default:
                 alert("Wrong password");
